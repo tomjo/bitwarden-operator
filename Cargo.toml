@@ -8,7 +8,7 @@ edition = "2021"
 log = "0.4.20"
 env_logger = "0.11.1"
 
-tokio = { version = "1.36", features = [
+tokio = { version = "1.37.0", features = [
     "macros",
     "rt-multi-thread",
 ] } # Macros for easy project setup and testing, multi-threaded runtime for best utilization of resources
