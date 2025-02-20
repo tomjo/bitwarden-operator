@@ -21,8 +21,8 @@ k8s-openapi = { version = "0.21", default-features = false, features = [
 ] } # Kube-rs depends on k8s-openapi
 futures = "0.3"
 # All serde dependencies are used to serialize/deserialize CRDs and other Kubernetes-related structs
-serde = { version = "1", features = ["derive"]}
-serde_json = "1.0"
+serde = { version = "1.0.200", features = ["derive"]}
+serde_json = "1.0.116"
 schemars = "0.8"
 thiserror = "1"    # Custom Error definitions and convenient error mappings
 config = "0.14"
